@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+* {
+    box-sizing: border-box;
+    color: white;
+    font-size: 18px;
+}
+
+html, body {
+    margin: 0;
+}
+
+#title {
+    font-family: 'Satisfy', cursive;
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+#description {
+    font-family: 'Satisfy', cursive;
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+::placeholder {
+    color: hsl(0, 0%, 90%);
+    font-size: .9em;
+}
+
+.website-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Burg\ wp.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    background-blend-mode: multiply;
+}
+
+.content-container {
+    background-color: hsla(0, 0%, 24%, 0.774);
+    padding: 30px;
+    width: 50%;
+    min-width: 450px;
+}
+
+.input1 label {
+    margin-bottom: 7px;
+    font-size: 1.25em;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.input-group input, textarea, select{
+    font-size: 1.2em;
+    padding: .1em .25em;
+    background-color: hsla(0, 0%, 100%, 0.2);
+    border: 1px solid hsl(201, 100%, 6%);
+    outline: none;
+}
+
+.input-group input:focus {
+    border: 1px solid hsl(201, 100%, 50%);
+}
+
+.input-group textarea:focus {
+    border: 1px solid hsl(201, 100%, 50%);
+}
+
+.input-group select:focus {
+    border: 1px solid hsl(201, 100%, 50%);
+}
+
+.input-group p{
+    margin-bottom: 7px;
+    font-size: 1.25em;
+}
+
+.checkbox label{
+    font-size: 1.12em;
+}
+
+.radio label{
+    font-size: 1.12em;
+}
+
+.input2 label{
+    margin-bottom: 7px;
+    font-size: 1.25em;
+}
+
+.input2 select{
+    background-color: hsla(49, 100%, 50%, 0.658);
+}
+
+.submit {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+
+    background-color: hsla(49, 100%, 50%, 0.2);
+    font-size: 1.2em;
+    width: 70%;
+    padding: 10px 30px;
+    outline: none;
+    border: 1px solid hsl(49, 100%, 50%);
+}
+
+.submit:hover {
+    background-color:hsla(49, 100%, 50%, 0.5);
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build your Burger</title>
+    <link rel="stylesheet" href="Survey.css"/>
+</head>
+<body>
+    <div class="website-container">
+        <h1 id="title">BURG-it</h1>
+            <p id="description">Where you create your own ideal burger!</p>
+        <div class="content-container">
+            <form id="survey-form">
+
+            <div class="input1">
+                <div class="input-group">
+                    <label for="name" id="name-label">Full Name</label>
+                    <input type="text" name="name" id="name" placeholder="Full Name">
+                </div>
+
+                <div class="input-group">
+                    <label for="email" id="email-label">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Email">
+                </div>
+
+                <div class="input-group">
+                    <label for="number" id="number-label">How much would you like to order? (if this menu has launched)</label>
+                    <input type="number" id="number" name="number" min="1" max="100" placeholder="1-100">
+                </div>
+            </div>
+                <div class="input-group checkbox">
+                   <p>Pick your burger contents</p>
+                    <div>
+                        <label for="Beef">Beef</label>
+                        <input type="checkbox" name="Beef" id="Beef">
+                    </div>
+                    <div>
+                        <label for="Bacon">Bacon</label>
+                        <input type="checkbox" name="Bacon" id="Bacon">
+                    </div>
+                    <div>
+                        <label for="Pineapple">Pineapple</label>
+                        <input type="checkbox" name="Pineapple" id="Pineapple">
+                    </div>
+                    <div>
+                        <label for="Fried Egg">Fried Egg</label>
+                        <input type="checkbox" name="Fried Egg" id="Fried Egg">
+                    </div>
+                    <div>
+                        <label for="Cheese">Cheese</label>
+                        <input type="checkbox" name="Cheese" id="Cheese">
+                    </div>
+                    <div>
+                        <label for="Onions">Onions</label>
+                        <input type="checkbox" name="Onions" id="Onions">
+                    </div>
+                    <div>
+                        <label for="Lettuce">Lettuce</label>
+                        <input type="checkbox" name="Lettuce" id="Lettuce">
+                    </div>
+                    <div>
+                        <label for="Pickles">Pickles</label>
+                        <input type="checkbox" name="Pickles" id="Pickles"> 
+                    </div>
+                    <div>
+                        <label for="Tomato">Tomato</label>
+                        <input type="checkbox" name="Tomato" id="Tomato">
+                    </div>
+                </div>
+
+                <div class="input-group radio">
+                    <p>Choose beef type</p>
+                    <div>
+                        <label for="Sirloin">Sirloin</label>
+                        <input type="radio" name="BeefType" id="Sirloin">
+                    </div>
+                    <div>
+                        <label for="Chuck">Chuck</label>
+                        <input type="radio" name="BeefType" id="Chuck">
+                    </div>
+                    <div>
+                        <label for="Skirt-Steak">Skirt Steak</label>
+                        <input type="radio" id="Skirt-Steak" name="BeefType">
+                    </div>
+                    <div>
+                        <label for="Short-Rib">Short Rib</label>
+                        <input type="radio" id="Short-Rib" name="BeefType">
+                    </div>
+                    <div>
+                        <label for="Flap-Meat">Flap Meat</label>
+                        <input type="radio" id="Flap-Meat" name="BeefType">
+                    </div>
+                    <div>
+                        <label for="Hanger-Steak">Hanger Steak</label>
+                        <input type="radio" id="Hanger-Steak" name="BeefType">
+                    </div>
+                    <div>
+                        <label for="Brisket">Brisket</label>
+                        <input type="radio" id="Brisket" name="BeefType">
+                    </div>
+                    <div>
+                        <label for="Ox-Tail">Ox-Tail</label> 
+                        <input type="radio" id="Ox-Tail" name="BeefType">
+                    </div>
+                    <div>
+                        <label for="Others">Others</label>
+                        <input type="text" name="BeefType" id="Others">
+                    </div>
+                </div>
+                
+            <div class="input2">
+                <div class="input-group">
+                <label for="cheese" id="dropdown">Choose the cheese</label>
+                <select name="cheese" id="cheese">
+                    <option value="American-Cheese">American Cheese</option>
+                    <option value="Brie">Brie</option>
+                    <option value="Cheddar">Cheddar</option>
+                    <option value="Goat-Cheese">Goat Cheese</option>
+                    <option value="Monterey-Jack">Monterey Jack</option>
+                    <option value="Pepper-Jack">Pepper Jack</option>
+                    <option value="Provolone">Provolone</option>
+                    <option value="Smoked-Gouda">Smoked Gouda</option>
+                    <option value="Mozarella">Mozarella</option>M
+                </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="details">Would you like to add any details?</label>
+                    <textarea id="details" name="details" placeholder="Ex: How to cook it, etc"></textarea>
+                </div>
+            </div>
+
+                <button type="submit" id="submit" class="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
